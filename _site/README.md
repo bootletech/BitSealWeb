@@ -1,1 +1,0 @@
-Bitseal Jekyll Website
