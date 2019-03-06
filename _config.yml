@@ -1,0 +1,40 @@
+title: BitSeal
+author: Bootle Technology Systems, LLC
+email: contact@bootletech.com
+description: >-
+  BitSeal is an end-to-end encryption platform built on the most secure
+  encryption technology avaiable, while retaining an unrivaled ease-of-use.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # your site's origin, e.g. https://forestry.io
+
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-menus
+
+exclude: [vendor]
+
+# Deploy Plugins
+plugins_dir: ./_plugins
+jekyll_get:
+  - data: github
+    json: 'https://api.github.com/orgs/bootletech/repos'
+    cache: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
