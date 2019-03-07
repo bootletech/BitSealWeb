@@ -14,7 +14,7 @@ page_sections:
   - link: "#"
     link_text: Integrations
   - link: "#"
-    link_text: Our Technology
+    link_text: Technology
   - link: "#"
     link_text: Pricing
   cta:
@@ -33,7 +33,8 @@ page_sections:
   block: feature-1
   headline: <strong>Meet Barry<span class="light">,&nbsp;</span></strong><span
     class="light">the Bit Seal.</span>
-  content: Barry uses three different cryptography keys to provide end-to-end encryption,
+  content: Barry is an app for your smartphone which utilizes three different
+    cryptographic keys to provide end-to-end encryption,
     digital signatures, and password-less authentication. <br><br>
     Barry's strength comes from the
     hardware security modules found in almost all newer smartphones. Using the
@@ -44,7 +45,26 @@ page_sections:
   cta:
     enabled: true
     url: /barry
-    button_text: 'Learn about our Technology'
+    button_text: 'Learn How Barry Works'
+  media:
+    image: "/assets/logos/barryvectornoball.svg"
+- template: content-feature
+  block: feature-2
+  headline: <strong>Meet Barry<span class="light">,&nbsp;</span></strong><span
+    class="light">the Bit Seal.</span>
+  content: Barry is an app for your smartphone which utilizes three different
+    cryptographic keys to provide end-to-end encryption,
+    digital signatures, and password-less authentication. <br><br>
+    Barry's strength comes from the
+    hardware security modules found in almost all newer smartphones. Using the
+    technology already built into your phone, BitSeal combines three cross-encrypted
+    keys to form a proprietary system that ditches passwords while eliminating threats from
+    phishing and malware.<br><br>
+    <strong>tl;dr</strong> Barry is security simplified.
+  cta:
+    enabled: true
+    url: /barry
+    button_text: 'Learn How Barry Works'
   media:
     image: "/assets/logos/barryvectornoball.svg"
 - template: full-width-media-element
