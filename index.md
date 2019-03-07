@@ -14,7 +14,7 @@ page_sections:
   - link: "#"
     link_text: Integrations
   - link: "#"
-    link_text: Our Technology
+    link_text: Technology
   - link: "#"
     link_text: Pricing
   cta:
@@ -26,14 +26,15 @@ page_sections:
   content: BitSeal is a powerful cryptographic platform based on distributed asymmetric key cryptography,
      and it's purpose built for people who have no idea what that means.
   image:
-    image: "/assets/graphics/tallphone.svg"
+    image: "/assets/graphics/tallphone_sign.svg"
     alt_text: Product Shot
   background_image: "/assets/theme/hero-2-bg.png"
 - template: content-feature
   block: feature-1
-  headline: <strong>Meet Barry<span class="light">,&nbsp;</span></strong><span
-    class="light">the Bit Seal.</span>
-  content: Barry uses three different cryptography keys to provide end-to-end encryption,
+  headline: <strong>Meet Barry<span class="light">&nbsp;</span></strong><span
+    class="light">the Bit Seal</span>
+  content: Barry is an app for your smartphone which utilizes three different
+    cryptographic keys to provide end-to-end encryption,
     digital signatures, and password-less authentication. <br><br>
     Barry's strength comes from the
     hardware security modules found in almost all newer smartphones. Using the
@@ -44,15 +45,33 @@ page_sections:
   cta:
     enabled: true
     url: /barry
-    button_text: 'Learn about our Technology'
+    button_text: 'Learn How Barry Works'
   media:
     image: "/assets/logos/barryvectornoball.svg"
+- template: content-feature
+  block: feature-2
+  headline: ... and his home, <span class="light"><span
+    class="light"></span><strong>The Big Bit Ocean</strong>
+  content: The Big Bit Ocean is a centralized identity authority for the BitSeal
+    network. The Ocean automatically downloads the encryption and signature keys
+    needed to send encrypted emails, and check the validity of a BitSeal
+    signature. <br> <br>
+    The Ocean maps keys to verified BitSeal user's identities.
+    An end user knows exactly who they are sending and receiving emails from. <br> <br>
+    <strong>Phishers don't catch anything in this ocean.</strong>
+
+  cta:
+    enabled: true
+    url: /barry
+    button_text: 'Explore the Big Bit Ocean'
+  media:
+    image: "/assets/graphics/bigbitocean.svg"
 - template: full-width-media-element
   block: media-1
   image: "/assets/graphics/bitseal_login.svg"
 - template: simple-footer
   block: footer-1
-  content: © 2019 Bootle Technology Systems, LLC <br> Built in South Carolina
+  content: Built in South Carolina <br> © 2019 Bootle Technology Systems, LLC
 ---
 
 foo bar
