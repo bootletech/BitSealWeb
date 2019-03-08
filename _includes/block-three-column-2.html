@@ -1,0 +1,31 @@
+<section class="block block-three-column-2">
+  <div class="container">
+    <h1>{{ section.headline }}</h1> <br>
+    <div class="columns">
+      <div class="column">
+        <div class="column media">
+          <img src="{{ section.col_1.image | relative_url }}" alt="{{ section.col_1.alt_text }}">
+        </div>
+        <h3>{{ section.col_1.headline }}</h3>
+        <p>{{ section.col_1.content }}</p>
+      </div>
+      <div class="column">
+        <div class="column media">
+          <img src="{{ section.col_2.image | relative_url }}" alt="{{ section.col_2.alt_text }}">
+        </div>
+        <h3>{{ section.col_2.headline }}</h3>
+        <p>{{ section.col_2.content }}</p>
+      </div>
+      <div class="column">
+        <div class="column media">
+          <img src="{{ section.col_3.image | relative_url }}" alt="{{ section.col_3.alt_text }}">
+        </div>
+        <h3>{{ section.col_3.headline }}</h3>
+        <p>{{ section.col_3.content }}</p>
+      </div>
+    </div>
+    {% if section.cta and section.cta.enabled == true %}
+    <br><br><a class="button primary" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+    {% endif %}
+  </div>
+</section>
