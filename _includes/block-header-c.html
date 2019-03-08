@@ -1,0 +1,24 @@
+<header class="block block-header-2">
+
+  <div class="block-header-2--logo">
+    <a href="{{ site.url }}">
+      <img src="/assets/logos/bitsealvectorlogo.svg" alt="BitSeal">
+    </a>
+  </div>
+
+  <nav class="block-header-2--nav">
+    <ul>
+      <li class="nav-item {% if page.title == "Home" %}active{% endif %}"><a href="/">Home</a></li>
+
+      <li class="nav-item {% if page.title == "Features" %}active{% endif %}"><a href="/features">Features</a></li>
+
+      <li class="nav-item {% if page.title == "Technology" %}active{% endif %}"><a href="/technology">Technology</a></li>
+
+      <li class="nav-item {% if page.title == "Integrations" %}active{% endif %}"><a href="/integrations">Integrations</a></li>
+
+      <li class="nav-item {% if page.title == "Pricing" %}active{% endif %}"><a href="/pricing">Pricing</a></li>
+    </ul>
+    <a class="button primary small block-header-2--cta" href="#">Get Started</a>
+  </nav>
+
+</header>

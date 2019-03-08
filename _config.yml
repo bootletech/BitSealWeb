@@ -5,7 +5,7 @@ description: >-
   BitSeal is an end-to-end encryption platform built on the most secure
   encryption technology avaiable, while retaining an unrivaled ease-of-use.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: "https://www.bitseal.app" # your site's origin, e.g. https://forestry.io
 
 # Build settings
 defaults:
