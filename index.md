@@ -67,7 +67,7 @@ page_sections:
     image: "assets/graphics/encrypted_email.svg"
     alt_text: Encrypted Email
     headline: Encrypted Communications
-    content: Hackers and foreign governments are a major concern for the security of
+    content: Hackers and foreign governments are becoming a major threat to the security of
       intellectual property, proprietary technology, and sensitive records. BitSeal provides
       end-to-end encryption for all of your communications, ensuring no one (including us),
       can read your sensitive communication.
