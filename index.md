@@ -9,7 +9,7 @@ page_sections:
 
 - template: hero-banner-w-image
   block: hero-2
-  headline: The world's most powerful encryption, <br><strong>made dead simple.</strong>
+  headline: The world's most powerful encryption, <br><strong>finally made simple.</strong>
   content: BitSeal is a powerful cryptographic platform based on distributed asymmetric key cryptography,
      and it's purpose built for people who have no idea what that means.
   image:
